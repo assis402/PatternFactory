@@ -1,0 +1,23 @@
+﻿using SimpleFactory;
+
+Console.WriteLine("========= Pizzaria ======\n");
+Console.WriteLine("Informe a pizza (C)alabreza  (M)ussarela ");
+
+var pizzaEscolhida = Console.ReadLine();
+
+try
+{
+    Pizza pizza = PizzaSimpleFactory.CriarPizza(pizzaEscolhida.ToUpper());
+
+    pizza.Preparar();
+    pizza.Assar(30);
+    pizza.Embalar();
+
+    Console.WriteLine("\nPizza concluida com sucesso");
+}
+catch (Exception ex)
+{
+    Console.WriteLine("Erro :" + ex.Message);
+}
+
+Console.ReadLine();
