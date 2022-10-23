@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{85B562AD-111A-474E-87C4-57B2232EDBF2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype2", "Prototype2\Prototype2.csproj", "{6EE6A75D-879C-41CD-905B-0FEE1BB090B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonSingleThread", "SingletonSingleThread\SingletonSingleThread.csproj", "{6F73EF4D-48D3-443F-AAB0-17FC66F08BF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,5 +62,9 @@ Global
 		{6EE6A75D-879C-41CD-905B-0FEE1BB090B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EE6A75D-879C-41CD-905B-0FEE1BB090B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EE6A75D-879C-41CD-905B-0FEE1BB090B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F73EF4D-48D3-443F-AAB0-17FC66F08BF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F73EF4D-48D3-443F-AAB0-17FC66F08BF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F73EF4D-48D3-443F-AAB0-17FC66F08BF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F73EF4D-48D3-443F-AAB0-17FC66F08BF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
