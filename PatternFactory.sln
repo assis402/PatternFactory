@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "Abstract
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{3411E835-9F2D-4BBC-945A-1074AA8A23FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentBuilder", "FluentBuilder\FluentBuilder.csproj", "{AA9DA3A9-7477-49A4-A36C-DBB4F3D8342A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{3411E835-9F2D-4BBC-945A-1074AA8A23FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3411E835-9F2D-4BBC-945A-1074AA8A23FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3411E835-9F2D-4BBC-945A-1074AA8A23FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA9DA3A9-7477-49A4-A36C-DBB4F3D8342A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA9DA3A9-7477-49A4-A36C-DBB4F3D8342A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA9DA3A9-7477-49A4-A36C-DBB4F3D8342A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA9DA3A9-7477-49A4-A36C-DBB4F3D8342A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

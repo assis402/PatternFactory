@@ -5,9 +5,9 @@ namespace FactoryMethod;
 
 public abstract class Pizza
 {
-    protected string Nome { get; set; }
-    protected string Massa;
-    protected string Molho;
+    protected string? Nome { get; set; }
+    protected string? Massa;
+    protected string? Molho;
     protected ArrayList Ingredientes = new ArrayList();
 
     public string Preparar()
@@ -38,5 +38,11 @@ public abstract class Pizza
     public virtual string Embalar()
     {
         return "Embalar a pizza com embalagem oficial \n";
+    }
+
+    public override bool Equals(object? obj)
+    {
+        return obj is Pizza pizza &&
+               Massa == pizza.Massa;
     }
 }
